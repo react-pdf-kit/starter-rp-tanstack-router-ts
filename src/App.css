@@ -1,0 +1,17 @@
+html,
+body {
+  @apply px-2;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.container {
+  padding-inline: 16px;
+}
