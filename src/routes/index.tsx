@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { RPConfig } from '@pdf-viewer/react'
+import { RPConfig } from '@react-pdf-kit/viewer'
 import { AppPdfViewer } from '../components/AppPdfViewer'
 import '../App.css'
 
