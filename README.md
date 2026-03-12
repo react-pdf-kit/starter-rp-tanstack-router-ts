@@ -1,6 +1,6 @@
 # React PDF Starter Toolkit in React.js, TypeScript, Vite and TanStack Router
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/react-pdf-dev/starter-rp-tanstack-router-ts)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/react-pdf-kit/starter-rp-tanstack-router-ts)
 
 Welcome to the React PDF Starter Toolkit! This repository provides a comprehensive guide on integrating React PDF with React, TypeScript, Vite and TanStack Router. It showcases how React PDF can be integrated and rendered as part of a React.js project.
 
@@ -18,7 +18,7 @@ Welcome to the React PDF Starter Toolkit! This repository provides a comprehensi
 1. **Clone the Repository**: If you haven't already, clone the repository and navigate into the project directory.
 
    ```bash
-   git clone https://github.com/reactpdf/starter-rp-tanstack-router-ts.git
+   git clone https://github.com/react-pdf-kit/starter-rp-tanstack-router-ts.git
    cd starter-rp-tanstack-router-ts
    ```
 
@@ -59,11 +59,7 @@ Once the example project is running, you can explore the source code to see how 
 1.  **Import the component**: Import the desired React PDF component into your codes
 
 ```tsx
-import {
-  RPProvider,
-  RPDefaultLayout,
-  RPPages
-} from "@pdf-viewer/react";
+import { RPProvider, RPLayout, RPPages } from "@react-pdf-kit/viewer";
 
 interface Props {
   showToolbar?: boolean;
@@ -80,9 +76,9 @@ export const AppPdfViewer = (props: Props) => {
       {...providerProps}
     >
       {showToolbar ? (
-        <RPDefaultLayout {...defaultLayoutProps}>
+        <RPLayout toolbar {...defaultLayoutProps}>
           <RPPages />
-        </RPDefaultLayout>
+        </RPLayout>
       ) : (
         <div style={{ width: "100%", height: "550px" }}>
           <RPPages />
@@ -97,7 +93,7 @@ export const AppPdfViewer = (props: Props) => {
 
 ```tsx
 import { createFileRoute } from "@tanstack/react-router";
-import { RPConfig } from "@pdf-viewer/react";
+import { RPConfig } from "@react-pdf-kit/viewer";
 import { AppPdfViewer } from "../components/AppPdfViewer";
 import "../App.css";
 
@@ -144,11 +140,12 @@ For more examples, please refer to the `src/routes/index.tsx` file in this repos
 
 _Remark: If you would like more examples, feel free open an issue._
 
-For more configurations, please check the [documentation](https://docs.react-pdf.dev) site.
+For more configurations, please check the [documentation](https://docs.react-pdf-kit.dev/) site.
 
 ## Meta
-- Homepage: [https://www.react-pdf.dev](https://www.react-pdf.dev)
-- Docs: [https://docs.react-pdf.dev](https://docs.react-pdf.dev)
+
+- Homepage: [https://www.react-pdf-kit.dev/](https://www.react-pdf-kit.dev/)
+- Docs: [https://docs.react-pdf-kit.dev/](https://docs.react-pdf-kit.dev/)
 
 ---
 
