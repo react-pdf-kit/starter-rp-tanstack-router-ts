@@ -2,7 +2,7 @@
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/react-pdf-kit/starter-rp-tanstack-router-ts)
 
-Welcome to the React PDF Starter Toolkit! This repository provides a comprehensive guide on integrating React PDF with React, TypeScript, Vite and TanStack Router. It showcases how React PDF can be integrated and rendered as part of a React.js project.
+Welcome to the React PDF Starter Toolkit! This repository provides a comprehensive guide on integrating React PDF with React, TypeScript, Vite and TanStack Router. It showcases how the React PDF Viewer component can be integrated and rendered as part of a React.js project.
 
 ## Table of Contents
 
@@ -149,4 +149,4 @@ For more configurations, please check the [documentation](https://docs.react-pdf
 
 ---
 
-Thank you for using React PDF! We hope this toolkit helps you build amazing React.js applications. If you have any questions or need further assistance on this example, please feel free to open an issue. Happy coding!
+Thank you for using React PDF Kit! We hope this toolkit helps you build amazing React.js applications. If you have any questions or need further assistance on this example, please feel free to open an issue. Happy coding!
