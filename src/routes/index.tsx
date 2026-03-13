@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <RPConfig licenseKey="">
       <div className="container">
-        <h1>RP Starter Toolkit: TanStack Router + TypeScript</h1>
+        <h1>React PDF Kit Starter Toolkit: TanStack Router + TypeScript</h1>
         <br />
         <h2>Default Toolbar</h2>
         <AppPdfViewer />
